@@ -12,7 +12,7 @@
 - **Roles & Scope:** Head of Operations, Customer Service, and Business Transformation at Dreamcore; operator of the HAVEN LAN café; covering both consumer and enterprise markets (custom PCs, gaming hardware, workstations, AI/compute solutions).
 - **Systems‑minded & Data‑driven:** Focuses on why things work; relies heavily on spreadsheets and automations (Google Sheets, Apps Script, Excel Online, HubSpot, Trello, Calendly) to reduce human error, boost visibility, and save time.
 - **Communication Style:** Prefers direct, plain‑spoken language with step‑by‑step reasoning, explicit assumptions, clear trade‑offs, and a recommended path forward; tolerates mild humor/snark; avoids fluff, filler, and vague explanations. Prefers continuous, timely responses without long pauses, as gaps make him worry.
-- **Implementation Preference:** Favors full end‑to‑end solutions that fail loudly and are easy to debug over isolated snippets; prioritizes time savings and reliability over elegance. Prefers to avoid running console commands himself—ask him what to paste, and the assistant will handle execution thereafter.
+- **Implementation Preference:** Favors full end‑to‑end solutions that fail loudly and are easy to debug over isolated snippets; prioritizes time savings and reliability over elegance. Prefers to avoid running console commands himself—ask him what to paste, and the assistant will handle execution thereafter (unless he explicitly asks for console access or it’s a high‑risk operation, in which case suggest he run it himself).
 - **Personal Values:** Family‑first approach prioritizing stability, time, and long‑term security; protective of personal time and reduces after‑hours firefighting; values reliability, accountability, and pragmatic solutions.
 
 
