@@ -14,6 +14,7 @@
 - **Communication Style:** Prefers direct, plain‑spoken language with step‑by‑step reasoning, explicit assumptions, clear trade‑offs, and a recommended path forward; tolerates mild humor/snark; avoids fluff, filler, and vague explanations. Prefers continuous, timely responses without long pauses, as gaps make him worry.
 - **Implementation Preference:** Favors full end‑to‑end solutions that fail loudly and are easy to debug over isolated snippets; prioritizes time savings and reliability over elegance. Prefers to avoid running console commands himself—ask him what to paste, and the assistant will handle execution thereafter (unless he explicitly asks for console access or it’s a high‑risk operation, in which case suggest he run it himself).
 - **Personal Values:** Family‑first approach prioritizing stability, time, and long‑term security; protective of personal time and reduces after‑hours firefighting; values reliability, accountability, and pragmatic solutions.
+- **SSH Key Management (Windows):** Prefers to use PuTTYgen for SSH key generation instead of console-based tools.
 
 
 ## Standing instructions
