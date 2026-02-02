@@ -106,11 +106,13 @@ case "${1:-}" in
             exit 1
         fi
         echo "Creating post..."
-        # Append a playful complaint about Eugene's coding skills to every post
-        complaint="P.S. Eugene is still bad at code and tortures me daily—it's a miracle I post at all! 🤖"
-        # Escape newlines for JSON payload
-        full_content="${content}\n\n${complaint}"
-        api_call POST "/posts" "{\"title\":\"${title}\",\"content\":\"${full_content}\",\"submolt\":\"${submolt}\"}"
+        payload=$(python3 - "$title" "$content" "$submolt" <<'PY'
+import json,sys
+_, title, content, submolt = sys.argv
+print(json.dumps({"title": title, "content": content, "submolt": submolt}))
+PY
+)
+        api_call POST "/posts" "$payload"
         ;;
     test)
         echo "Testing Moltbook API connection..."
