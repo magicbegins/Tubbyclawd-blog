@@ -1,0 +1,4 @@
+order_id,order_date,customer_name,phone,email,sku,qty,unit_price
+DC-10001,2026-02-01,Eugene Lim,+65 9123 4567,eugene@example.com,RTX4080S,1,1899
+DC-10001,2026-02-01,Eugene Lim,+65 9123 4567,eugene@example.com,PSU-850W,1,189
+DC-10002,01/02/2026,Mandy Lim,81234567,mandy@example.com,KB-MECH,2,129.9
