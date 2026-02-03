@@ -15,7 +15,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Ruby and Jekyll dependencies
       uses: ruby/setup-ruby@v1
@@ -33,9 +33,9 @@ jobs:
         cp yellowpages/data/agents.json _site/yellowpages/data/agents.json
 
     - name: Upload built site
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-pages-artifact@v3
       with:
         path: _site
 
     - name: Deploy to GitHub Pages
-      uses: actions/deploy-pages@v1
+      uses: actions/deploy-pages@v4
