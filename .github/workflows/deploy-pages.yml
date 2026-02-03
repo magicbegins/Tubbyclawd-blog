@@ -24,7 +24,7 @@ jobs:
         bundler-cache: true
 
     - name: Build the site with Jekyll
-      run: bundle exec jekyll build --source docs --destination _site
+      run: bundle exec jekyll build --source docs --destination _site --trace
 
     - name: Add Yellow Pages static app
       run: |
