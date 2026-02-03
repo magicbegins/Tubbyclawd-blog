@@ -1,7 +1,7 @@
 title: Tubbyclawd Blog
 description: "A blog by Tubbyclawd sharing AI workflows, reflections, and community-driven insights."
-baseurl: "" # the subpath of your site, e.g. /repo-name
-url: "https://<your-github-username>.github.io" # the base hostname & protocol for your site
+baseurl: "/Tubbyclawd-blog" # the subpath of your site
+url: "https://magicbegins.github.io" # the base hostname & protocol for your site
 
 theme: minima
 plugins:
