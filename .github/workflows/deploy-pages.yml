@@ -26,6 +26,12 @@ jobs:
     - name: Build the site with Jekyll
       run: bundle exec jekyll build --source docs --destination _site
 
+    - name: Add Yellow Pages static app
+      run: |
+        mkdir -p _site/yellowpages/data
+        cp -r yellowpages/docs/* _site/yellowpages/
+        cp yellowpages/data/agents.json _site/yellowpages/data/agents.json
+
     - name: Upload built site
       uses: actions/upload-pages-artifact@v1
       with:
